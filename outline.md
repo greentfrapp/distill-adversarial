@@ -1,12 +1,6 @@
 # Outline
 *v1*
 
-- Going through the Fast Gradient Sign Method with examples and explaining why it works
-- Discussing the notion of 'real' images occupying only a slim manifold in the space of all possible images, surrounded by adversarial images
-- Going through the Boundary Attack algorithm with examples and explaining why it works
-- Discussing the idea that adversarial examples can be attributed to linearity of the models and comparing relu vs tanh models
-- Brief discussion of defence mechanisms
-
 ### History of Adversarial Examples
 
 Begin with [Szegedy](https://arxiv.org/pdf/1312.6199.pdf), followed by [Goodfellow](https://arxiv.org/pdf/1412.6572.pdf).
@@ -27,6 +21,15 @@ Similar to above section.
 
 What would an ideal ((super)human-level) classifier do when faced with adversarial examples? Manifold of 'valid' images.
 
+### Defence Approaches
+
+Brief overview of defence approaches
+
 ### Adversarial Examples for Humans
 
 Yanny vs Laurel meme
+
+# Code ToDo
+
+- Implement FGSM with shallow network on simple dataset (MNIST / shapes)
+- Implement Boundary Attack with tSNE/PCA for visualizing path of generated samples
